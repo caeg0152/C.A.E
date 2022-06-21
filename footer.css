@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+        body{
+           
+            font-family: "Karla", Arial, sans-serif;
+            line-height: 1.8;
+            font-size: 16px;
+            font-weight: 400;
+            background: black;
+
+            
+         
+        }
+        
+        .card{
+            padding: 2% 7%;
+            color: #646771;
+            background-color: black;
+        }
+        
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul >li{
+            padding: 4px;
+        }
+        
+        ul > li:hover{
+            color:#0099FF;
+            cursor: pointer;
+        }
+        
+        hr{
+            border-width: 3px;
+        }
+        
+        .social > i{
+            padding: 1%;
+            font-size: 15px;
+        }
+        
+        .social > i:hover{
+            color:#0099FF;
+            cursor:pointer;
+        }
+        
+        .policy > div{
+            padding: 4px;
+        }
+        
+        .heading{
+            font-family: 'Titillium Web', sans-serif;
+            color: white;
+        }
+        
+        .divider{
+            border-top: 2px solid rgba(189, 196, 203, 0.5);;
+        }
